@@ -1,39 +1,85 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras formataçoes</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formataçoes</h1>
-    <h2>Codigos-fontes/Pre-formatado</h2>
-    <p>O comando <code>document.getElement.ById("teste")</code>  é escrito em javascript.</p>
-    <PRE>
-        <code>
-Num=int(input('DIGITE Um numero'))
-if num %2 ==0:
-print(f' O numero é par)
-else:
-print(f'numero{num}é impar')
-print("FIM DO PROGRAMA")
-        </code>
-    </PRE>
-    <h2>citaçoes</h2>
-    <p>como diria o pai de um amigo:<q>O computador é um burro muito rapido.</q></p>
-    <h2>Citaçoes completas</h2>
-    <p>Segundo Alenir Paulino, seu livro web design:</p>
-    <blockquote cite="https://books.google.com.br/books?id=R1BLBQAAQBAJ&pg=PT8&dq=html&hl=pt-BR&sa=X&ved=2ahUKEwjb1KKor8HuAhXrK7kGHXbAAmIQ6AEwAHoECAQQAg#v=onepage&q=html&f=false">
-        a diferença entre elementos inline e um bloco de textos
-        é importe. Os elementos html neste capitulo descrevem os blocos de texto
-    </blockquote>
-    <h2>abreviaçoes</h2>
-    <p>estou estudando <abbr title="Hypertext markup language">html</abbr> e <abbr title="Cascading style sheets">css</abbr>. Estou adorando!!</p>
-    <h2>Texto invertido</h2>
-    <p><bdo dir="rtl">Estou aprendendo criar coisas em html</bdo></p>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas</h2>
+    <ol type="1"> <!--1 A a I i -->
+        <li>Acorda</li>
+        <LI>Ligar para joão</LI>
+        <li>Tomar cafe</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para faculdade</li>
+        <li>Almoçar</li>
+        <li>Trabalhar</li>
+        <li>Voltando para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+  <h2>Lista não ordenas</h2>
+  <ul type="square"> <!--disc circle square-->
+    <li>Pão</li>
+    <li>Leite</li>
+    <li>Tomate</li>
+    <li>Manteiga</li>
+    <li>Arroz</li>
+    <li>Feijão</li>
+    </ul>
+    <h2>minhas liguagem favoritas</h2>
+    <ol>
+        <li>Antigas</li>  
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>Python</li>
+            <li>PHP</li>
+            <li>KOTLIN</li>
+            <li>JavaScript</li>
+          </ol>
+          
+          <h2>Meus jogos Favoritos</h2>
+          <ol>
+            <li>NES</li>
+            <ul>
+                <li>mario bros</li>
+                <ul type="circle">
+                    <li>mario bros3</li>
+                    <li>Mario:Lost levels</li>
+                </ul>
+                <li>Ninja gaiden</li>
+            </ul>
+            <LI>SNES</LI>
+            <ul>
+                <li>Mario</li>
+                <li>Donkey kong</li>
+            </ul> 
+             <LI>PLAYSATION</LI>
+           <ul>
+               <li>Final Fantasy</li>
+               <li>Castlevania</li>
+           </ul>
+          </ol>
+     </ol>
+     <h2>Lista de definições</h2>
+     <dl>
+
+        <dt>Html</dt>
+        <dd>Linguagem de marcação para criação do conteudo de um site</dd>
+       <dt>CSS</dt>
+       <dd>Linguagem de marcação para criaçao do design de um site</dd> 
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para interatividade de um site.</dd>
     
-
-
-
+    
+    </dl>
 </body>
 </html>
